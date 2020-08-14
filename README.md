@@ -10,15 +10,16 @@ This is my first Django Project. This project is written in Python.
 </ul>
 
 <h2 id="whatisthis">What is this Project about</h2>
-This project holds the articles data for the blog.
-I have worked on this project to demonstrate my experience
-with Python, Django, graphQL, and Docker.
+This project shows backend of web blog which stores the articles data and link,
+ using  Python, Django, graphQL, and Docker.
+I have worked on this project to demonstrate my experience with the
+following languages and packages.
 
 <h2 id="requirements">Requirements</h2>
 Make sure you have installed the following packages in your computer
 <ul>
     <li>Python3</li>
-    <li>Docker</li>
+    <li>Docker Desktop</li>
 </ul>
 
 <h2 id="instruction">Instruction</h2>
