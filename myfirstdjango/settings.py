@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "graphene_django", #enabling graphQL for django project
     'myfirstdjango.article',
     'myfirstdjango.reply'
 ]
@@ -84,6 +85,11 @@ DATABASES = {
         'HOST': 'db',
         'PORT': 5432,
     }
+}
+
+# GraphQL-API schema location
+GRAPHENE = {
+    "SCHEMA": "myfirstdjango.schema.schema"
 }
 
 # Password validation
